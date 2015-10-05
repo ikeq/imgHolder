@@ -1,0 +1,20 @@
+{
+  "name": "imgHolder",
+  "version": "0.1.0",
+  "description": "Hold the place for the image before it's done!",
+  "main": "imgholder.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iriscyo/imgHolder.git"
+  },
+  "keywords": [
+    "image",
+    "holder"
+  ],
+  "author": "Iris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iriscyo/imgHolder/issues"
+  },
+  "homepage": "https://github.com/iriscyo/imgHolder"
+}

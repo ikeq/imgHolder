@@ -1,0 +1,22 @@
+{
+  "name": "imgHolder",
+  "main": "imgHolder.js",
+  "version": "0.1.0",
+  "description": "Hold the place for the image before it's done!",
+  "keywords": [
+    "image",
+    "holder"
+  ],
+  "authors": [
+    "Iris"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/iriscyo/imgHolder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
