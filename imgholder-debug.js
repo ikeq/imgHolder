@@ -1,6 +1,6 @@
 /**
  * imgholder.js
- * https://github.com/iriscyo/imgHolder
+ * https://github.com/elmorec/imgHolder
  * licensed under MIT license
  */
 
