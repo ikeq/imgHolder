@@ -1,6 +1,6 @@
 # imgHolder.js
 
-Hold the place for the image before it's done!
+Hold the place for images before they are done!
 
 ## Usage
 
