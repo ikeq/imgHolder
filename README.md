@@ -1,4 +1,4 @@
-# vform.js
+# imgHolder.js
 
 Hold the place for the image before it's done!
 
