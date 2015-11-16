@@ -15,7 +15,7 @@ function maxDivisor (a, b) {
 
   while (tmp) {
     tmp = b % a;
-    d = b / a;
+    divisor = b / a;
     b = a;
     a = tmp;
   }
@@ -69,6 +69,17 @@ function encodeSize(width, height) {
 var p0 = 'data:image/gif;base64,R0lGODlh',
     p1 = 'AIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==';
 
+/*
+ * return gif url
+ *
+ * @param  {Number} width
+ * @param  {Number} height
+ * @return {String}
+ */
+function create(width, height) {
+  return p0 + encodeSize(width, height) + p1;
+}
+
 function imgHolder (node) {
   var elems = (node || document).querySelectorAll('[data-src]');
 
@@ -81,7 +92,7 @@ function imgHolder (node) {
       height = pre[2],
       imgLoader = new Image;
 
-    img.src = p0 + encodeSize(width, height) + p1;
+    img.src = create(width, height);
     delete img.dataset.src;
 
     imgLoader.onload = function () {
@@ -93,8 +104,11 @@ function imgHolder (node) {
   })
 }
 
-if (typeof define === 'function' && define.amd || define.cmd) {
-  define(function () { return imgHolder; });
+imgHolder.create = create;
+
+if (window.define) {
+  if (define === 'function' && define.amd || define.cmd)
+    define(function () { return imgHolder; });
 } else {
   window.imgHolder = imgHolder;
 }
