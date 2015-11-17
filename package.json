@@ -1,22 +1,22 @@
 {
   "name": "imgHolder",
   "version": "0.1.0",
-  "description": "Hold the place for the image before it's done!",
+  "description": "Hold the place for images before they are done!",
   "main": "imgholder.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iriscyo/imgHolder.git"
+    "url": "https://github.com/elmorec/imgHolder.git"
   },
   "keywords": [
     "image",
     "holder"
   ],
-  "author": "Iris",
+  "author": "ElmoreCheng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iriscyo/imgHolder/issues"
+    "url": "https://github.com/elmorec/imgHolder/issues"
   },
-  "homepage": "https://github.com/iriscyo/imgHolder",
+  "homepage": "https://github.com/elmorec/imgHolder",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
