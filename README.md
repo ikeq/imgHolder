@@ -14,7 +14,7 @@ Hold the place for images before they are done!
 /*
  * @param {HTMLElement} node
  */
-imgHolder(node);
+imgHolder.run(node);
 
 ```
 
